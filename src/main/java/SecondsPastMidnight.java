@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 class SecondsPastMidnight {
     public static void main(String[] args) {
@@ -7,10 +7,16 @@ class SecondsPastMidnight {
         Scanner scanner = new Scanner(System.in);
 
         //Reads int from user
-        int number = scanner.nextInt();
+        int sec;
+        int hours; 
+        int min; 
 
         //Your code goes here
-
+        sec = scanner.nextInt();
+        hours = sec / 3600;
+        min = sec /60;
+        System.out.println("Hours: " + hours + " ");
+        System.out.println("Minutes: " + min + " ");
 
         // closing the scanner object
         scanner.close();
