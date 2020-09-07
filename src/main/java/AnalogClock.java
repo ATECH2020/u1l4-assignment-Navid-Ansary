@@ -11,6 +11,9 @@ class AnalogClock {
 
         /*
          *  your code goes here
+         *
+         * I actually dont know how to do this one...
+         *
          */
 
         // closing the scanner object
