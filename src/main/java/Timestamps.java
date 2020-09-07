@@ -7,22 +7,11 @@ class Timestamps {
         Scanner scanner = new Scanner(System.in);
         
         //Reads ints from user
-        System.out.print("Hour 1: ");
         int H1 = scanner.nextInt(); // Hour 1
-        
-        System.out.print("Minute 1: ");
         int M1 = scanner.nextInt(); // Minute 1
-        
-        System.out.print("Seconds 1: ");
         int S1 = scanner.nextInt(); // Second 1
-        
-        System.out.print("\nHour 2: ");
         int H2 = scanner.nextInt(); // Hour 2
-        
-        System.out.print("Minute 2: ");
         int M2 = scanner.nextInt(); // Minute 2
-        
-        System.out.print("Seconds 2: ");
         int S2 = scanner.nextInt(); // Second 2
 
         int HS = 3600; // Seconds in an Hour
