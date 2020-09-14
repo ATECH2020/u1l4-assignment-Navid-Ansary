@@ -25,10 +25,7 @@ class StudentDesks {
         R3 = (C3 / X) + (C3 % X);
         total = R1 + R2 + R3;
         
-        System.out.println("\nSeats Needed for \n Class 1: " + R1 + 
-                                    "\n Class 2: " + R2 + 
-                                    "\n Class 3: " + R3 +
-                                    "\n\n Total:   " + total);
+        System.out.println(R1 + " " + R2 + " " + R3 + " " + total);
         
         // closing the scanner object
         scanner.close();

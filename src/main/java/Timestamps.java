@@ -42,7 +42,7 @@ class Timestamps {
 
         //Total has been calculated
 
-        System.out.println("\nTotal Seconds = " + total);
+        System.out.println(total);
 
         // closing the scanner object
         scanner.close();
