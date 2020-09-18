@@ -25,7 +25,7 @@ class StudentDesks {
         R3 = (C3 / X) + (C3 % X);
         total = R1 + R2 + R3;
         
-        System.out.println(R1 + " " + R2 + " " + R3 + " " + total);
+        System.out.print(total);
         
         // closing the scanner object
         scanner.close();
